@@ -1,4 +1,4 @@
-# graduation-project
+# 毕业设计
 python on android
 
 #项目内容的功能描述
