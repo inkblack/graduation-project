@@ -10,6 +10,8 @@
 ## 项目参考文献
 
 目前还处于对整个项目构建的了解中，所以具体技术还有待补充，以下先列出参考资料
+[overflow上对于这个问题的讨论]
+[在PC上的交叉编译android的python compiler]
 
 
 [overflow上对于这个问题的讨论]:https://stackoverflow.com/questions/101754/is-there-a-way-to-run-python-on-android
