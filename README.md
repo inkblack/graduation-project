@@ -1,22 +1,30 @@
 # 毕业设计
 
 
-#项目内容的功能描述
+## 项目内容的功能描述
 
-待定
+
 本项目功能目前确定是能够实现在android平台上进行python语言程序的编译。
 目前类似的软件如SL4A有着文档少且效率低的问题，并且也不能和java进行交互。本项目试图能够完成一个可以在安卓手机上进行流畅、效率地python编写、编译的过程，在完成基本功能的情况下，尽可能实现和java的交互。
 
-#项目参考文献
+## 项目参考文献
 
 目前还处于对整个项目构建的了解中，所以具体技术还有待补充，以下先列出参考资料
 
-[overflow上对于这个问题的讨论]
-[在PC上的交叉编译android的python compiler]
 
 [overflow上对于这个问题的讨论]:https://stackoverflow.com/questions/101754/is-there-a-way-to-run-python-on-android
+
 [在PC上的交叉编译android的python compiler]:https://mdqinc.com/blog/2011/09/cross-compiling-python-for-android/
 
+
+## 时间安排
+
+
+11.2-11.15 查阅参考资料，找好开源的python编译器。
+
+11.16-12.~ 进行代码初步的编写（这个过程不知道要持续多久，可能要占去12月的大部分时间）
+
+预计12月内完成，1月主要是DEBUG
 
 
 
