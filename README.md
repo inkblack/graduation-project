@@ -59,11 +59,17 @@
 按照先前的安排，头两周我主要做的事情还是进行资料的查找和学习。目前还没有开始进行代码编译的工作。
 首先是关于Python编译器的相关内容，除了官网之外，在国内的博客找到一个关于python发行版（编译器）相关的详细内容介绍：http://www.cnblogs.com/mehome/p/9427229.html
 另外在寻找python编译器开源代码的同时，找到了一个在线编译器的简单原理与实现：https://blog.csdn.net/u013055678/article/details/73896477
+
 以及本文中提到的在线编译器：
 python3.0:  http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python3
+
 python2.0:  http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python
+
 带窗口的python3.0: http://www.dooccn.com/python3/
+
 考虑到我要实现的，感觉应该会有帮助。
+
 再加上考虑到有可能会使用C或C++来进行主要功能的实现，所以对Android NDK做了一定程度的了解（这个还在了解的过程中），主要是通过官网和相关内容的博客（数量很多此处不方便一一贴出地址，只给出官网）进行学习，官网地址：https://developer.android.google.cn/ndk/
+
 因为报名了12月2号的国考所以目前进度不是很快，估计大部分的代码编写会集中在12月内进行。
 
