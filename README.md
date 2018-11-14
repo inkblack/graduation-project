@@ -23,7 +23,7 @@
 ## 时间安排
 
 
-11.2-11.15 查阅参考资料，找好开源的python编译器。
+11.2-11.15 查阅参考资料并加以学习。
 
 11.16-12.~ 进行代码初步的编写（这个过程不知道要持续多久，可能要占去12月的大部分时间）
 
@@ -53,3 +53,17 @@
 
 ## 第二次会议
 本次会议主要是剩下几个同学做presentation，讲了几篇他们关注的论文，并讨论了还未确定题目的同学的毕业设计项目，同时确定了所有同学的毕业设计题目。我自己提出做一个能够在android上运行python的软件，老师给出要求是首先完成到一个类似Termux的状况，如果可以，实现能够直接在软件中和java交互的功能。目前感觉相当有难度……
+
+# 第一、二周工作总结
+
+按照先前的安排，头两周我主要做的事情还是进行资料的查找和学习。目前还没有开始进行代码编译的工作。
+首先是关于Python编译器的相关内容，除了官网之外，在国内的博客找到一个关于python发行版（编译器）相关的详细内容介绍：http://www.cnblogs.com/mehome/p/9427229.html
+另外在寻找python编译器开源代码的同时，找到了一个在线编译器的简单原理与实现：https://blog.csdn.net/u013055678/article/details/73896477
+以及本文中提到的在线编译器：
+python3.0:  http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python3
+python2.0:  http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python
+带窗口的python3.0: http://www.dooccn.com/python3/
+考虑到我要实现的，感觉应该会有帮助。
+再加上考虑到有可能会使用C或C++来进行主要功能的实现，所以对Android NDK做了一定程度的了解（这个还在了解的过程中），主要是通过官网和相关内容的博客（数量很多此处不方便一一贴出地址，只给出官网）进行学习，官网地址：https://developer.android.google.cn/ndk/
+因为报名了12月2号的国考所以目前进度不是很快，估计大部分的代码编写会集中在12月内进行。
+
