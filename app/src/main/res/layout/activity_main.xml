@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="打开py文件" />
+
+        <Button
+            android:id="@+id/btn_run"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="运行" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_source"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:gravity="top"
+                android:hint="请先打开python文件，或输入python脚本"
+                android:inputType="textMultiLine"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="运行结果:" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
